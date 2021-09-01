@@ -2,12 +2,12 @@
   "publisher": "RyanRolnicki",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/rollie42/csv-to-kotlin-dataclass"
   },
   "name": "csv-to-kotlin-dataclass",
-	"displayName": "csv-to-kotlin-dataclass",
+	"displayName": "CSV to Kotlin Data Class",
 	"description": "Given a CSV file, generate a reasonable kotlin data class",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.59.0"
 	},
@@ -15,13 +15,13 @@
 		"Other"
 	],
 	"activationEvents": [
-        "onCommand:csv-to-kotlin-dataclass.helloWorld"
+        "onCommand:csv-to-kotlin-dataclass.generateDataClass"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "csv-to-kotlin-dataclass.helloWorld",
+				"command": "csv-to-kotlin-dataclass.generateDataClass",
 				"title": "Convert CSV to Kotlin Data Class"
 			}
 		]

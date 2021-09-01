@@ -42,7 +42,7 @@ a1,a2,a3
 	// The command has been defined in the package.json file
 	// Now provide the implementation of the command with registerCommand
 	// The commandId parameter must match the command field in package.json
-	let disposable = vscode.commands.registerCommand('csv-to-kotlin-dataclass.helloWorld', async () => {
+	let disposable = vscode.commands.registerCommand('csv-to-kotlin-dataclass.generateDataClass', async () => {
 		const activeFile = vscode.window.activeTextEditor
 		if (!activeFile || !activeFile?.document) {
 			vscode.window.showErrorMessage("No file is active")
