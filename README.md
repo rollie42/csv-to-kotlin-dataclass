@@ -1,4 +1,4 @@
-# csv-to-kotlin-dataclass README
+# csv-to-kotlin-dataclass
 
 Simple open source extension to generate a kotlin data class from a CSV file. It tries to determine the type of the data from what is available; it's not going to be perfect, but it should help find a good starting point given large CSV data.
 
